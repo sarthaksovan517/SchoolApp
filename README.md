@@ -1,7 +1,9 @@
 # SchoolApp
 A simple online school application for online classes
 
-Teacher can enroll
+#Featured supported
+Teacher can enroll.
+
 Course can be added
 
 Tecaher can't offer a non existent course.
