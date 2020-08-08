@@ -19,7 +19,6 @@ public class TeacherController {
     
     @PostMapping(value = "/add/", produces = "application/json")
     public List<Teacher> addTeachers(@RequestBody Teacher teacher){
-        System.out.println("teacher");
 
         return teacherService.addTeacher(teacher);
     }
