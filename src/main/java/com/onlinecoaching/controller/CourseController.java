@@ -20,7 +20,6 @@ public class CourseController {
 
     @PostMapping(value = "/add/", produces = "application/json")
     public List<Course> addCourse(@RequestBody Course course){
-        System.out.println(course.getCourseName());
         return service.addCourse(course);
 
     }
