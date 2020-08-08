@@ -16,7 +16,6 @@ public class BaseController {
 
     @GetMapping("/get/course")
     public List<Course> getCourses(){
-        System.out.println("Here in base controller");
         return courseService.getCourses();
     }
 }
